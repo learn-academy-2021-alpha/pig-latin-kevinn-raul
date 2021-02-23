@@ -1,52 +1,64 @@
 body {
-  margin: 2em;
-  font-family: 'Josefin Sans', sans-serif;
-  text-align: center;
+	background-color: rgb(40, 40, 40);
+	color: white;
+	margin: 2em;
+
+	text-align: center;
+	font-family: "Fascinate Inline", cursive;
 }
 
 h1 {
-  font-size: 4em;
+	font-size: 4em;
 }
 
 button {
-  margin: 1em;
-  border-radius: .5em;
-  padding: 1em;
+	margin: 1em;
+	border-radius: 0.5em;
+	padding: 1em;
 }
 
 footer {
-  padding: 2em;
+	padding: 2em;
 }
 
 input {
-  border-radius: .5em;
+	border-radius: 0.5em;
 }
 
 #butcherPig {
-  width: 12rem;
+	width: 12rem;
 }
 
-#inputPhrase{
-  font-size: 1rem;
-  height: 5rem;
-  width: 20rem;
-  text-align: center;
+#inputPhrase {
+	font-size: 1rem;
+	height: 5rem;
+	width: 20rem;
+	text-align: center;
 }
 
-#box{
-  background-color: #606060;
-  color: #fff;
-  border-radius: .5em;
-  padding: 1rem;
+#box {
+	background-color: #ce2525;
+	background-image: linear-gradient(
+		to right,
+		red,
+		orange,
+		yellow,
+		green,
+		blue,
+		indigo,
+		violet
+	);
+	color: white;
+	border-radius: 0.5em;
+	padding: 1rem;
 }
-
 
 @media only screen and (max-width: 650px) {
-  #inputPhrase{
-    font-size: 1rem;
-    height: 5rem;
-    width: 90%;
-    padding: 1rem;
-    text-align: center;
-  }
+	#inputPhrase {
+		font-size: 1rem;
+		height: 5rem;
+		width: 90%;
+		padding: 1rem;
+		text-align: center;
+	}
 }
